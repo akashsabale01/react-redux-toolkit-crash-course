@@ -14,16 +14,21 @@ const Cart = () => {
     <div>
       <h2>Cart</h2>
       <div className="cartWrapper">
-        {products.map((product) => (
-          <div className="cartCard" key={product.id}>
-            <img src={product.image} alt="image not found" />
-            <h4>{product.title}</h4>
-            <h5>{product.price}</h5>
-            <button onClick={() => handleRemove(product.id)} className="btn">
-              Remove
-            </button>
-          </div>
-        ))}
+      {
+        products.length ===0 && <h3>No products in cart</h3>
+      }
+        {products.length != 0 &&
+          products.map((product) => (
+            <div className="cartCard" key={product.id}>
+              <img src={product.image} alt="image not found" />
+              <h4>{product.title}</h4>
+              <h5>{product.price}</h5>
+              <button onClick={() => handleRemove(product.id)} className="btn">
+                Remove
+              </button>
+            </div>
+          ))
+          }
       </div>
     </div>
   );

@@ -16,6 +16,6 @@
  ### Reference
  - [Learn Redux Toolkit in one video ](https://youtu.be/XwGNhppX4as?si=arPc6d_9cYe7vVQU)
  - [How to Use Redux and Redux Toolkit – Tutorial for Beginners](https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/#:~:text=To%20use%20Redux%20Toolkit%20in,store%20to%20your%20React%20components.)
- - [Redux Overview ](hhttps://redux.js.org/tutorials/fundamentals/part-1-overview)
+ - [Redux Overview ](https://redux.js.org/tutorials/fundamentals/part-1-overview)
  - [Redux Fundamentals, Part 6: Async Logic and Data Fetching ](https://redux.js.org/tutorials/fundamentals/part-6-async-logic)
 
